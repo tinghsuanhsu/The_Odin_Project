@@ -1,7 +1,4 @@
-/*
-Hint for this one: after creating the <div> with createElement, 
-append the <h1> and <p> to it before adding it to the container.
-*/
+/* DOM
 
 //a <p> with red text that says “Hey I’m red!”
 const body = document.body
@@ -29,3 +26,10 @@ h1Text.textContent = 'I\'m in a div'
 const meToo = document.createElement('p')
 meToo.textContent = 'ME TOO!'
 div.append(h1Text, meToo)
+
+ */
+
+const body = document.querySelector('body')
+const div = document.querySelector('div')
+const spanHi = document.querySelector('hi')
+const spanBye = document.querySelector('bye')
